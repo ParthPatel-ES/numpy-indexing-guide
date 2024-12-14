@@ -55,4 +55,5 @@ arr_2d = np.array([[1, 2], [3, 4], [5, 6]])
 print("Multi-axis Fancy Indexing:", arr_2d[[0, 2], 1])  # Output: [2, 6]
 
 # 13. Complete Slicing
+arr_2d = np.array([[1, 2], [3, 4], [5, 6]])
 print("Complete Slicing:", arr_2d[...])  # Output: [[1, 2], [3, 4], [5, 6]]
